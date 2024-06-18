@@ -2,12 +2,13 @@ body {
     font-family: arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f3ebeb;
 }    
 
 header {
     text-align: center;
     padding: 50px;
-    background-color: #f3ebeb;
+    background-color: rgba(128, 128, 128, 0.5);
 }
 
 h1 {
@@ -20,8 +21,7 @@ h1 {
     color: white;
     border: none;
     cursor: pointer;
-    margin: 10px;
-    position: relative;
+    margin-left: 10px;
     transition: transform 0.5s ease;
     text-align: center;
 }
@@ -36,4 +36,28 @@ h1 {
     50% { transform: translate(-50px, 50px); }
     75% { transform: translate(50px, -50px); }
     100% { transform: translate(-50px, -50px); }
+}
+
+.lil {
+    margin-left: 50px;
+    height: 400px;
+}
+
+.col img {
+    float: right;
+    margin-top: -150px;
+    width: 200px;
+    margin-right: 600px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(51, 51, 51, 0.8);
+    color: #fff;
 }
